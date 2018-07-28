@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './playlist.scss'
-import TrackList from '../../components/TrackList/trackList'
+import './Playlist.css'
+import TrackList from '../../components/TrackList/TrackList'
 
 class Playlist extends React.Component {
   static propTypes = {
