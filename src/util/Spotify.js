@@ -24,7 +24,7 @@ const Spotify = {
       return accessToken;
   } else {
     console.log('Redirect to authorize.');
-      const endpoint = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectURI}`;
+      const endpoint = `https://accounts.spotify.com/authorize?client_id=${clientID}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectURI}`;
       window.location = endpoint;
       return false;
   }
