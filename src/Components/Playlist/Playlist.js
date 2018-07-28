@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './Playlist.css'
-import TrackList from '../../components/TrackList/TrackList'
+import './PlayList.css'
+import TrackList from '../TrackList/TrackList'
 
 class Playlist extends React.Component {
   static propTypes = {
@@ -25,7 +25,7 @@ class Playlist extends React.Component {
         <input value={this.props.playlistName} onChange={this.handleNameChange} />
         <TrackList
           onRemove={this.props.onRemove}
-          tracks={this.props.tracks} />
+          tracks={this.props.playlistTracks} />
         <a className="Playlist-save"
           onClick={this.props.onSave} >SAVE TO SPOTIFY</a>
       </div>
