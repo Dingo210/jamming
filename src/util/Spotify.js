@@ -38,7 +38,7 @@ async search(term) {
     };
 
     try {
-          const response = await fetch(endpoint, { headers: headers });
+          const response = await fetch(endpoint, { headers });
           if (response.ok) {
             const jsonResponse = await response.json();
             if (!jsonResponse.tracks) {
