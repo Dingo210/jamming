@@ -1,1 +1,1 @@
-localhost:3000/#access_token=BQCjOqVRN05QOJaXrAvyOn2y6qDJ3QrhUEFLttES1M0tmP9_yPpWRlkeUx8mcI-LipXiyw6h4qHpeUiG8IViBMGZxhSrbZpPU299-nowfGVae6FPhuvpSMGv-qC5ENpW3f73qCRxa9H601kg9dQUWl_eVxTSQ9WbCdCPASxSOZuwc_GOxw&token_type=Bearer&expires_in=3600 /ericsjamming.netlify.com/
+/https://accounts.spotify.com/en/login?continue=https:%2F%2Faccounts.spotify.com%2Fauthorize%3Fclient_id%3D9c5bdfffb43c4957ae5f2a1ff29cb938%26response_type%3Dtoken%26scope%3Dplaylist-modify-public%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A3000%252F /ericsjamming.netlify.com/
