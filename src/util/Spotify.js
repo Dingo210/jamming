@@ -1,4 +1,4 @@
-import { clientID, local, prod } from "../key";
+import { clientID, local, prod } from "../key.js";
 // if running local do not redirect to hosted domain
 let redirectURI;
 if (window.location.href.includes("localhost")) {
